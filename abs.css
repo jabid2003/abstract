@@ -247,6 +247,7 @@ footer{
     width: 100%;
     height: auto;
     background-color: black;
+    overflow-x: hidden;
 
 }
 
@@ -295,3 +296,22 @@ gap: 30px;
     margin-bottom: 25%;
 }
 
+.help-button{
+    position: fixed;
+    top: 92vh;
+    right: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 10;
+    background-color: #4c5fd5;
+    padding: 8px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-button a{
+    color: white;
+    margin: 3px;
+}
