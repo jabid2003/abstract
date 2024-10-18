@@ -320,10 +320,26 @@ flex-wrap: wrap;
     color: white;
     margin: 3px;
 }
+.xyz{
+    margin-bottom: 30px;
+}
 
 @media screen and (min-width:768px)  {
     .footer-links{
-        width: 30%;
+        width: 35%;
     }
+
+.xyz{
+    display: flex;
+    flex-wrap: wrap;
+}
+.links-container{
+    width: 45%;
+    height: auto;
+    display: flex;
+
+}
     
 }
+
+
